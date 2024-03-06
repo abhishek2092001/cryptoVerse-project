@@ -1,0 +1,30 @@
+.box{
+    display: flex;
+    justify-content: center;
+}
+.container_ex{
+    display: flex;
+      
+    width: 70vw;
+    flex-direction: column;
+}
+
+.ex-cards{
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 1rem;
+width: 98%;
+color: black;
+transition: transform ease-in-out 0.3s;
+
+}
+.ex-cards:hover{
+    background-color: #E0F4FF;
+    border-radius: 10px;
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.image-icon{
+    height: 3em;
+}
